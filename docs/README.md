@@ -5,12 +5,11 @@
 |key|value|
 |---|---|
 |氏名||
-|生年月日||
-|Twitter||
-|Qiita||
-|note||
-|Zenn||
-|SpeakerDeck||
+|生年月日|1990/06/09|
+|Twitter|[@417_72ki](https://twitter.com/417_72ki)|
+|Qiita|[@417_72ki](https://qiita.com/417_72ki)|
+|Zenn|[417_72ki](https://zenn.dev/417_72ki)|
+|SpeakerDeck|[417_72ki](https://speakerdeck.com/417_72ki)|
 
 ---
 
