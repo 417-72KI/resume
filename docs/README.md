@@ -15,7 +15,10 @@
 
 ## 保有スキル
 
-- 
+- Swift / Objective-C でのiOSアプリケーション開発・設計
+- Kotlin / Java でのAndroidアプリケーション開発・設計
+- Java (Struts) / PHP (FuelPHP・Laravel) でのサーバサイド開発
+- Testabilityを意識した実装
 
 
 ---
