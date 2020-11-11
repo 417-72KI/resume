@@ -1,5 +1,5 @@
 build:
-	@docker build -t resume_lint .
+	@docker build --quiet -t resume_lint .
 
 sh: build
 	@docker run \
