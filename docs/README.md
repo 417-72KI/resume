@@ -20,14 +20,20 @@
 - Java (Struts) / PHP (FuelPHP・Laravel) でのサーバサイド開発
 - Testability を意識した実装
 
-
 ---
 
 ## 技術スタック
 
 ### 言語
 
-- 
+- Swift
+- Objective-C
+- Java
+- Kotlin
+- Ruby
+- PHP
+- Python 3 (趣味レベル)
+- Perl
 
 ### フレームワーク・その他
 
