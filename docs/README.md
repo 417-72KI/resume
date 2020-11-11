@@ -17,9 +17,8 @@
 
 - Swift / Objective-C での iOS アプリケーション開発・設計
 - Kotlin / Java での Android アプリケーション開発・設計
-- Java (Struts) / PHP (FuelPHP・Laravel) でのサーバサイド開発
+- Java / PHP でのサーバサイド開発
 - Testability を意識した実装
-
 
 ---
 
@@ -27,11 +26,22 @@
 
 ### 言語
 
-- 
+- Swift
+- Objective-C
+- Java
+- Kotlin
+- Ruby
+- PHP
+- Python 3 (趣味レベル）
+- Perl
+- MySQL
+- PostgreSQL
 
 ### フレームワーク・その他
 
-- 
+- RxSwift
+- FuelPHP
+- Laravel
 
 ---
 
