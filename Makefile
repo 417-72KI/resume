@@ -13,3 +13,9 @@ lint: build
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
 	-it resume_lint
+
+fix: build
+	@docker run \
+	-v `pwd`/docs:/work/docs \
+	-v `pwd`/.textlintrc:/work/.textlintrc \
+	-it resume_lint fix
