@@ -143,4 +143,17 @@
   - Kotlin
 ## 業務外活動
 
-- 
+### OSS活動
+- TBD
+
+### カンファレンス登壇
+- iOSDC 2018
+    [プロトコルでStoryboardともっと仲良くなる](https://speakerdeck.com/417_72ki/purotokorudestoryboardtomotutozhong-liang-kunaru)
+- iOSDC 2019
+    [ダックタイピングとidでUserDefaultsをモック化する](https://speakerdeck.com/417_72ki/datukutaipingutoiddeuserdefaultswomotukuhua-suru)
+
+### 技術書
+- [Swift/Kotlin愛好会合同執筆本vol.2](https://jollyjoester.booth.pm/items/1727499)
+    - SwiftでSwiftコードを作ろう
+- [Swift/Kotlin愛好会合同執筆本vol.3](https://jollyjoester.booth.pm/items/2049459)
+    - Dockerを使ってLinux環境でSwiftを動かしてみよう
