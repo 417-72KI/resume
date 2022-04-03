@@ -21,6 +21,7 @@ fix: build
 	-it resume_lint fix
 
 packages:
+	@docker pull "$(shell cat ./Dockerfile | grep FROM | awk '{ print $$NF }')"
 	@docker run \
 	-v `pwd`/package.json:/packages/package.json \
 	-v `pwd`/yarn.lock:/packages/yarn.lock \
