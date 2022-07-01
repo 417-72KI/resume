@@ -7,6 +7,7 @@
 |氏名||
 |生年月日|1990/06/09|
 |Twitter|[@417_72ki](https://twitter.com/417_72ki)|
+|GitHub|[@417-72KI](https://github.com/417-72KI)|
 |Qiita|[@417_72ki](https://qiita.com/417_72ki)|
 |Zenn|[417_72ki](https://zenn.dev/417_72ki)|
 |SpeakerDeck|[417_72ki](https://speakerdeck.com/417_72ki)|
@@ -153,7 +154,14 @@
 ## 業務外活動
 
 ### OSS活動
-- TBD
+#### 自作OSS
+- [MultipartFormDataParser](https://github.com/417-72KI/MultipartFormDataParser)
+- [MockUserDefaults](https://github.com/417-72KI/MockUserDefaults)
+- [xcode-arch](https://github.com/417-72KI/xcode-arch)
+
+#### 上記以外
+- [Danger-Swift](https://github.com/danger/swift)コミッター
+- [Octokit.swift](https://github.com/nerdishbynature/octokit.swift)コミッター
 
 ### カンファレンス登壇
 - iOSDC 2018
