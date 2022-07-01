@@ -99,12 +99,12 @@
   - 既存管理サイトへの SNS 機能連携
     - Java 1.4
     - カラオケ SNS サイトへの外部 SNS(mixi、Twitter、Facebook、Yahoo!)アカウント連携の機能追加
-     - OAuth認証のスクラッチ実装
+     - OAuth 認証のスクラッチ実装
   - 専用端末への SNS 機能追加対応
     - Java 1.4
     - Perl
     - SNS サイトの機能を、各店舗で使用されているコンシューマ向け専用通信端末においても利用可能とするための移植対応および機能追加対応
-      - PerlバッチのJava移植  
+      - Perl バッチの Java 移植  
 - 医療系法人の主催イベント向け
   - イベント登録 Web フォーム及び Android アプリ開発
     - イベント開催時発行されるマーケティング用バーコード読み込み機能、読み取り後データのメール送信機能を持つ Android アプリ
@@ -163,6 +163,6 @@
 
 ### 技術書
 - [Swift/Kotlin愛好会合同執筆本vol.2](https://jollyjoester.booth.pm/items/1727499)
-    - SwiftでSwiftコードを作ろう
+    - Swift で Swift コードを作ろう
 - [Swift/Kotlin愛好会合同執筆本vol.3](https://jollyjoester.booth.pm/items/2049459)
-    - Dockerを使ってLinux環境でSwiftを動かしてみよう
+    - Docker を使って Linux 環境で Swift を動かしてみよう
