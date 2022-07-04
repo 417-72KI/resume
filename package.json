@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "resume template",
   "scripts": {
-    "lint": "textlint docs/README.md",
+    "lint": "textlint -f checkstyle docs/README.md",
     "fix": "textlint --fix docs/README.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
