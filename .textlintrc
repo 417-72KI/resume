@@ -91,7 +91,7 @@
       "4.3.4.二重かぎかっこ『』": true,
       "4.3.5.二重引用符": true,
       "4.3.6.中かっこ{ }": true,
-      "4.3.7.山かっこ<>": true,
+      "4.3.7.山かっこ<>": false,
       "4.3.8.一重引用符": true
     },
     "preset-ja-spacing": {
@@ -99,7 +99,6 @@
         "space": "always"
       },
       "ja-space-around-code": false,
-      "ja-no-space-between-full-width": true,
       "ja-nakaguro-or-halfwidth-space-between-katakana": true,
       "ja-no-space-around-parentheses": true,
       "ja-space-after-exclamation": false,
