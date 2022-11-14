@@ -2,7 +2,7 @@
 
 IMAGE_NAME := resume_lint
 BASE_IMAGE := $(shell cat ./Dockerfile | grep FROM | awk '{ print $$NF }')
-YARN_ENTRYPOINT := $(shell docker run --rm --entrypoint /bin/bash -it $(BASE_IMAGE) which yarn)
+YARN_ENTRYPOINT := $(shell docker run --rm --platform linux/amd64 --entrypoint /bin/bash -it $(BASE_IMAGE) which yarn)
 
 build:
 	docker build --platform linux/amd64 --quiet -t $(IMAGE_NAME) .
