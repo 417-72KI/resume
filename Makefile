@@ -1,7 +1,9 @@
 .SILENT:
 
+IMAGE_NAME := resume_lint
+
 build:
-	docker build --platform linux/amd64 --quiet -t resume_lint .
+	docker build --platform linux/amd64 --quiet -t $(IMAGE_NAME) .
 
 sh: build
 	docker run \
@@ -10,7 +12,7 @@ sh: build
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
 	--entrypoint /bin/bash \
-	-it resume_lint
+	-it $(IMAGE_NAME)
 
 lint: build
 	docker run \
@@ -18,7 +20,7 @@ lint: build
 	--platform linux/amd64 \
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
-	-it resume_lint
+	-it $(IMAGE_NAME)
 
 fix: build
 	docker run \
@@ -26,7 +28,7 @@ fix: build
 	--platform linux/amd64 \
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
-	-it resume_lint fix
+	-it $(IMAGE_NAME) fix
 
 packages:
 	docker pull "$(shell cat ./Dockerfile | grep FROM | awk '{ print $$NF }')"
