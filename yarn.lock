@@ -603,10 +603,10 @@ check-ends-with-period@^1.0.1:
     emoji-regex "^6.4.1"
     end-with "^1.0.2"
 
-check-ends-with-period@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/check-ends-with-period/-/check-ends-with-period-2.0.1.tgz#818e60652875d735c4ecdc3da99d9c9fa5d182e9"
-  integrity sha512-ZXEB+OLEAnRu9JCt/aMHNU9Q/BNYDCJrhcQli+JN95K08rGGEMVZc+W75/op8JyKrCKk/WV8Whuo8qjLIDcPeA==
+check-ends-with-period@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/check-ends-with-period/-/check-ends-with-period-3.0.0.tgz#d78a0201370435b899e3e3b6faf7a9a008edf1b2"
+  integrity sha512-GfQoFKmICd6HgY+/69QovAT1yuxoYxuAmVRdB81BCl37qtmCGFy7svCKY8D4p/vLIbSp22sjnM7w3PIj0G6RIA==
   dependencies:
     emoji-regex "^10.1.0"
 
@@ -3288,12 +3288,12 @@ textlint-rule-no-zero-width-spaces@^1.0.1:
   resolved "https://registry.yarnpkg.com/textlint-rule-no-zero-width-spaces/-/textlint-rule-no-zero-width-spaces-1.0.1.tgz#15a6abda05f08e483d5bb33a7034d904259d77a3"
   integrity sha512-AkxpzBILGB4YsXddzHx2xqpXmqMv5Yd+PQm4anUV+ADSJuwLP1Jd6yHf/LOtu9j3ps8K3XM9vQrXRK73z0bU3A==
 
-textlint-rule-period-in-list-item@^0.3.2:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/textlint-rule-period-in-list-item/-/textlint-rule-period-in-list-item-0.3.3.tgz#a92bc2bf784b1b9c601d12d70b3e9c92f7928159"
-  integrity sha512-XVm7E2riBggmyMPiLPQZwXxwFngi5WozWrZqctjN43uz9GykOyrqaHACGsLou2cJqa6nwQxqxewl2OOf/G64eA==
+textlint-rule-period-in-list-item@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-period-in-list-item/-/textlint-rule-period-in-list-item-1.0.0.tgz#8f4032b5d9e85e114fe2960e0e296626e8593ef7"
+  integrity sha512-0K+eG9S8z64cbW8Z31uWmBTwqHjuWNuY1FLMEdkiZyGge8QqkqwfZOqWhM+Q9vQ+6oaY1qsQlF16neURdyS9qA==
   dependencies:
-    check-ends-with-period "^2.0.1"
+    check-ends-with-period "^3.0.0"
 
 textlint-rule-prefer-tari-tari@^1.0.3:
   version "1.0.3"
