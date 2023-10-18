@@ -70,26 +70,26 @@
 - Swift2.3 -> 4 へのコンバート
   - その他機能追加
 #### 勤怠管理アプリ
-  - 機能追加
-  - チャットボットのような UI
-    - Asset Catalog の Slicing を利用した拡縮可能な吹き出しを実現しデザイナーの負担を削減
+- 機能追加
+- チャットボットのような UI
+  - Asset Catalog の Slicing を利用した拡縮可能な吹き出しを実現しデザイナーの負担を削減
 #### 地方銀行公式アプリ
-  - 新規開発
-  - RxSwift 導入
-  - Fastlane 導入
-  - Clean Architecture + MVVM
+- 新規開発
+- RxSwift 導入
+- Fastlane 導入
+- Clean Architecture + MVVM
 #### 家具メーカー公式アプリ
-  - 新規開発
-    - 旧アプリのソースコードが貰えない状況でのリプレース
-  - ドメイン駆動開発でドメイン層の I/F を Android エンジニアとモブプログラミング
-  - XcodeGen 導入
-  - Clean Architecture + MVVM + Minimal Cake Pattern
-  - Quick + Nimble を使ったユニットテスト
-  - OHHTTPStubs を使ったユニットテスト用スタブ
-    - スタブ用ファイルを別リポジトリに配置することでスタブ環境を Android と共有
-    - `git submodule` を使って上記リポジトリをインポート
+- 新規開発
+  - 旧アプリのソースコードが貰えない状況でのリプレース
+- ドメイン駆動開発でドメイン層の I/F を Android エンジニアとモブプログラミング
+- XcodeGen 導入
+- Clean Architecture + MVVM + Minimal Cake Pattern
+- Quick + Nimble を使ったユニットテスト
+- OHHTTPStubs を使ったユニットテスト用スタブ
+  - スタブ用ファイルを別リポジトリに配置することでスタブ環境を Android と共有
+  - `git submodule` を使って上記リポジトリをインポート
 #### その他
-  - GitLab-CI で使う iOS 用ビルドマシン（iMac）のメンテナンス
+- GitLab-CI で使う iOS 用ビルドマシン（iMac）のメンテナンス
 
 ### 株式会社リゾーム（2014/04〜2018/01）
 
