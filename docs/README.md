@@ -60,7 +60,7 @@
 - CI 環境の継続的改善
 - `Danger-Swift` を使った静的レビューの自動化
 - SwiftUI + Combine + Swift Concurrency の部分導入
-- Swift Packageによるマルチモジュール化を見据えたリアーキテクチャ
+- Swift Package によるマルチモジュール化を見据えたリアーキテクチャ
 
 ### 株式会社アイリッジ（2018/02〜2019/08）
 
