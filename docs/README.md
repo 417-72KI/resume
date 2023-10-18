@@ -59,7 +59,8 @@
 - 新規機能追加
 - CI 環境の継続的改善
 - `Danger-Swift` を使った静的レビューの自動化
-- SwiftUI + Combine + Swift Concurrency の部分導入検証
+- SwiftUI + Combine + Swift Concurrency の部分導入
+- Swift Package によるマルチモジュール化を見据えたリアーキテクチャ
 
 ### 株式会社アイリッジ（2018/02〜2019/08）
 
@@ -158,7 +159,12 @@
 #### 自作OSS
 - [MultipartFormDataParser](https://github.com/417-72KI/MultipartFormDataParser)
 - [MockUserDefaults](https://github.com/417-72KI/MockUserDefaults)
+- [StubNetworkKit](https://github.com/417-72KI/StubNetworkKit)
+- [BuildConfig.swift](https://github.com/417-72KI/BuildConfig.swift)
+- [ShellDecorator.swift](https://github.com/417-72KI/ShellDecorator.swift)
+- [R2ACConverter](https://github.com/417-72KI/R2ACConverter)
 - [xcode-arch](https://github.com/417-72KI/xcode-arch)
+- [gh-milestone](https://github.com/417-72KI/gh-milestone)
 
 #### 上記以外
 - [Danger-Swift](https://github.com/danger/swift)コミッター
