@@ -2,12 +2,13 @@
 
 IMAGE_NAME := resume_lint
 BASE_IMAGE := $(shell cat ./Dockerfile | grep FROM | awk '{ print $$NF }')
-YARN_ENTRYPOINT := $(shell docker run --rm --entrypoint /bin/bash -it $(BASE_IMAGE) which yarn)
+YARN_ENTRYPOINT := $(shell docker run --rm --platform linux/amd64 --entrypoint /bin/bash -it $(BASE_IMAGE) which yarn)
 
 .PHONY: pdf
 pdf: build
 	docker run \
 	--rm \
+	--platform linux/amd64 \
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/pdf-configs:/work/pdf-configs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
@@ -18,6 +19,7 @@ pdf: build
 sh: build
 	docker run \
 	--rm \
+	--platform linux/amd64 \
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
 	--entrypoint /bin/bash \
@@ -27,6 +29,7 @@ sh: build
 lint: build
 	docker run \
 	--rm \
+	--platform linux/amd64 \
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
 	-it $(IMAGE_NAME)
@@ -35,18 +38,20 @@ lint: build
 fix: build
 	docker run \
 	--rm \
+	--platform linux/amd64 \
 	-v `pwd`/docs:/work/docs \
 	-v `pwd`/.textlintrc:/work/.textlintrc \
 	-it $(IMAGE_NAME) fix
 
 .PHONY: build
 build:
-	docker build --quiet -t $(IMAGE_NAME) .
+	docker build --platform linux/amd64 --quiet -t $(IMAGE_NAME) .
 
 .PHONY: yarn
 yarn:
 	docker run \
 	--rm \
+	--platform linux/amd64 \
 	-v `pwd`/package.json:/packages/package.json \
 	-v `pwd`/yarn.lock:/packages/yarn.lock \
 	-w /packages \
@@ -58,6 +63,7 @@ yarn:
 packages:
 	docker run \
 	--rm \
+	--platform linux/amd64 \
 	-v `pwd`/package.json:/packages/package.json \
 	-v `pwd`/yarn.lock:/packages/yarn.lock \
 	-w /packages \
