@@ -20,6 +20,7 @@
 - Kotlin / Java での Android アプリケーション開発・設計
 - Java / PHP でのサーバサイド開発
 - Testability を意識した実装
+- CI / CD 環境の構築・運用
 
 ---
 
@@ -32,6 +33,7 @@
 - Java
 - Kotlin
 - Ruby
+- Shell
 - PHP
 - Python 3（趣味レベル）
 - Perl
@@ -44,6 +46,7 @@
 - SwiftUI
 - Combine
 - Swift Concurrency
+- fastlane
 - FuelPHP
 - Laravel
 
@@ -56,10 +59,11 @@
 ロボアドバイザーによる資産運用サービス **Wealthnavi** 及び派生サービス **マメタス** の iOS アプリの開発・運用を担当。
 
 - 2 週間サイクルでのアジャイル開発
+- SwiftUI + Swift Concurrency への移行、及びその手法の社内展開
 - 新規機能追加
-- CI 環境の継続的改善
+- CI /CD 環境の継続的改善
 - `Danger-Swift` を使った静的レビューの自動化
-- SwiftUI + Combine + Swift Concurrency の部分導入
+- `fastlane` を使ったリリース作業の自動化
 - Swift Package によるマルチモジュール化を見据えたリアーキテクチャ
 
 ### 株式会社アイリッジ（2018/02〜2019/08）
@@ -170,6 +174,7 @@
 - [R2ACConverter](https://github.com/417-72KI/R2ACConverter)
 - [xcode-arch](https://github.com/417-72KI/xcode-arch)
 - [gh-milestone](https://github.com/417-72KI/gh-milestone)
+- [danger-swiftlint](https://github.com/417-72KI/danger-swiftlint)
 
 #### 上記以外
 - [Danger-Swift](https://github.com/danger/swift)コミッター
