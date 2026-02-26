@@ -31,7 +31,7 @@ jobs:
         run: |
           npm run build:pdf
           mv docs/README.pdf docs/resume.pdf
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: resume
           path: ./docs/resume.pdf
