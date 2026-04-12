@@ -3,6 +3,8 @@ FROM node:24-slim
 ADD . /work
 WORKDIR /work
 
+# Install dependencies to run Chrome.
+# Ref: https://pptr.dev/troubleshooting#chrome-doesnt-launch-on-linux
 RUN apt-get update \
     && apt-get install -y wget gnupg \
     && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
@@ -23,6 +25,8 @@ RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
     && chown -R pptruser:pptruser /work/package.json \
     && chown -R pptruser:pptruser /work/package-lock.json
 USER pptruser
+
+RUN npm run puppeteer:install-chrome
 
 ENTRYPOINT [ "npm", "run" ]
 CMD [ "lint" ]

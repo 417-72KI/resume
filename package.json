@@ -6,7 +6,9 @@
     "lint": "textlint docs/README.md",
     "lint:ci": "textlint -f checkstyle docs/README.md",
     "fix": "textlint --fix docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "puppeteer:install-chrome": "puppeteer browsers install chrome",
+    "puppeteer:list": "puppeteer browsers list"
   },
   "keywords": [],
   "devDependencies": {
