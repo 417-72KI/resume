@@ -1,8 +1,5 @@
 FROM node:24-slim
 
-ADD . /work
-WORKDIR /work
-
 # Install dependencies to run Chrome.
 # Ref: https://pptr.dev/troubleshooting#chrome-doesnt-launch-on-linux
 RUN apt-get update \
@@ -13,6 +10,9 @@ RUN apt-get update \
     && apt-get install -y google-chrome-stable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst fonts-freefont-ttf libxss1 \
       --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
+
+ADD . /work
+WORKDIR /work
 
 RUN npm install
 
