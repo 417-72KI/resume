@@ -21,7 +21,7 @@ jobs:
       - name: Get node version from Dockerfile
         id: node-version
         run: |
-          echo "node-version=$(head -1 Dockerfile | sed 's/FROM node://g')" >> $GITHUB_OUTPUT
+          echo "node-version=$(head -1 Dockerfile | sed 's/FROM node://g' | sed -E 's/([0-9]+)\-.*/\1/g')" >> $GITHUB_OUTPUT
       - uses: actions/setup-node@v6
         with:
           node-version: '${{steps.node-version.outputs.node-version}}'
