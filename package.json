@@ -9,7 +9,8 @@
     "prebuild:pdf": "npm run puppeteer:install-chrome",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
     "puppeteer:install-chrome": "puppeteer browsers install chrome",
-    "puppeteer:list": "puppeteer browsers list"
+    "puppeteer:list": "puppeteer browsers list",
+    "clean": "rm -rf docs/*.pdf"
   },
   "keywords": [],
   "devDependencies": {

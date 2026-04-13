@@ -43,6 +43,15 @@ fix: build
 	-v `pwd`/.textlintrc:/work/.textlintrc \
 	-it $(IMAGE_NAME) fix
 
+.PHONY: clean
+clean: build
+	docker run \
+	--rm \
+	--platform linux/amd64 \
+	-v `pwd`/docs:/work/docs \
+	-v `pwd`/.textlintrc:/work/.textlintrc \
+	-it $(IMAGE_NAME) clean
+
 .PHONY: build
 build:
 	docker build --platform linux/amd64 --quiet -t $(IMAGE_NAME) .

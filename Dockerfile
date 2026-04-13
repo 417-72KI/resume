@@ -14,19 +14,8 @@ RUN apt-get update \
 ADD . /work
 WORKDIR /work
 
-RUN npm install
-
-# Add user so we don't need --no-sandbox.
-# same layer as npm install to keep re-chowned files from using up several hundred MBs more space
-RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
-    && mkdir -p /home/pptruser/Downloads \
-    && chown -R pptruser:pptruser /home/pptruser \
-    && chown -R pptruser:pptruser /work/node_modules \
-    && chown -R pptruser:pptruser /work/package.json \
-    && chown -R pptruser:pptruser /work/package-lock.json
-USER pptruser
-
-RUN npm run puppeteer:install-chrome
+RUN npm install \
+    && npm run puppeteer:install-chrome
 
 ENTRYPOINT [ "npm", "run" ]
 CMD [ "lint" ]
