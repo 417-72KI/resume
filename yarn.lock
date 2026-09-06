@@ -155,12 +155,12 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@puppeteer/browsers@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-3.2.1.tgz#3e55213975c3e574c77c1abc7fed3e947c01ab47"
-  integrity sha512-KDz+3qDRdBAlRlMjmKyj6dEs33YHTk/xRHEENSXq6TNnhgoU15ruSHtEBeVF6OZ9tBDY55Se4P0nFMNsipzU9A==
+"@puppeteer/browsers@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-3.2.2.tgz#5fb046a7ea11d83d8e559efa046118c3066662da"
+  integrity sha512-q2BU4YfO9h/Wt7IcWPcggpOOqLk2Tbs1hDwolvKZrweRjy751OJBKMN9zO5bfD0pzU7X/tvKw/exQds4pM/LOg==
   dependencies:
-    modern-tar "^0.8.0"
+    modern-tar "^0.8.4"
     yargs "^18.0.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
@@ -1395,9 +1395,9 @@ fast-levenshtein@^2.0.6:
   integrity sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
 
 fast-uri@^3.0.1:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.1.6.tgz#bfdd308ef763f835fed059f3c6c925f708e33e3a"
-  integrity sha512-7Ical1vFEMr0onbVzEDIreM22I4khW+fzyQPwvAFWBp1iwdshSZRsL4jjRvPG9JP1uiqMHRto+YU6R2/CzDz5Q==
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.1.7.tgz#743157d957f3cbb4c65310e033dc2ad4ad7dc60a"
+  integrity sha512-dOvZVzjdZdz7phd9v6jCbwxrBW3fK6n8Rc0CtdmM4bumzMnxywBYhuph6J819RRw/ku+rLbelwfMunktuzVVHg==
 
 fault@^1.0.0:
   version "1.0.4"
@@ -1727,9 +1727,9 @@ highlight.js@^11.7.0:
   integrity sha512-nbfWpyRMcMrPMmDwJB+dhX/eiaPKtc2RB+0QZskqJ3WjRA/FDS0e9hZrx8EC/lbEv8gXy98FcDbNa/dspAaJMg==
 
 hono@^4.11.4:
-  version "4.13.5"
-  resolved "https://registry.yarnpkg.com/hono/-/hono-4.13.5.tgz#3df9463c4668a0321c39515309f5891e388e9709"
-  integrity sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==
+  version "4.13.7"
+  resolved "https://registry.yarnpkg.com/hono/-/hono-4.13.7.tgz#80fdab8326f03d02f049117fd968101933493600"
+  integrity sha512-c8/gF9ac8Y78/agExVocyLevgR+JlpNB444Py0FSX8pJoPdYUfUzRcXtYEYGwt6l19qIlVZPN5Mfsw9jFShmQQ==
 
 hookified@^1.15.0, hookified@^1.15.1:
   version "1.15.1"
@@ -2170,9 +2170,9 @@ japanese-numerals-to-number@^1.0.2:
   integrity sha512-rgs/V7G8Gfy8Z4XtnVBYXzWMAb9oUWp1pDdRmwHmh0hcjcy1kOu+DOpC5rwoHUAN4TqANwb7WD6z5W2v7v7PQQ==
 
 jose@^6.1.3:
-  version "6.2.10"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.10.tgz#b70436c920c4b3f97314c28a8b8612c15b1d9e7f"
-  integrity sha512-iiW7J9qRFlGxvCOIBDBDxFePQSn7ZMAnrYGhrrOo6siO/MIqwfyilLR27pkfDgUk+raLuzADS8A3S/KLBisc0g==
+  version "6.2.12"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.12.tgz#65663e146edd010b98ece83f81737d3aa95fd0d7"
+  integrity sha512-9NiFmJEex0sy2Dk58j2UGBSHgUs2ypF9eZSu4L6vjOX3Dp96Sw1F3uL+H+D1sx02jZZdzUT0HgvCy59CuvXcWw==
 
 js-yaml@^3.13.1, js-yaml@^3.14.1, js-yaml@^3.8.2, js-yaml@^3.9.1:
   version "3.15.2"
@@ -2697,10 +2697,10 @@ mkdirp@^0.5.6:
   dependencies:
     minimist "^1.2.6"
 
-modern-tar@^0.8.0:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/modern-tar/-/modern-tar-0.8.4.tgz#25d2de2f522250012f33a3b366400b49741f6b8e"
-  integrity sha512-gN54ddmyzEg10orwZ2u4OOv+bjpMWdIl5jIkodK97bMq8QBSL5c0D7YX0lT1Ooz+99S7+PvFbnxzdjgHo1r41g==
+modern-tar@^0.8.4:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/modern-tar/-/modern-tar-0.8.5.tgz#64f5eff1fafc1875f45bf0899452c09bf428cdb3"
+  integrity sha512-snEhs+6G5Tjd4I7tLCDOaoln2RgE0bD19RzEKgvgK2hZ5VKy3MpLhLTZ2fWpXSTg4K2cyPwp+VHATFJhxfnOeA==
 
 moji@^0.5.1:
   version "0.5.1"
@@ -3089,28 +3089,28 @@ proxy-addr@^2.0.7:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
 
-puppeteer-core@25.9.0:
-  version "25.9.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-25.9.0.tgz#257a2ca22ce4a56b3c3045543468cd4a52aa0003"
-  integrity sha512-U61rCwSMha62CA/Opy6tCx2Fx+ck7ouiKnbpEApzSoLYMoEu9F71nuFpHL55vmIt33/GYm6eKZVhH2ev0nAIeg==
+puppeteer-core@25.10.0:
+  version "25.10.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-25.10.0.tgz#32437f7fcacff2a0d9af388a46be84feb8ffce3d"
+  integrity sha512-Hy5eMQshOEMil4JUUx03h5pw1HYkYCso1RG/gcpPlFSd4cYPOcopxcXEAxpLPOkOPJb9LIJtwxuj66bSdvknFg==
   dependencies:
-    "@puppeteer/browsers" "3.2.1"
+    "@puppeteer/browsers" "3.2.2"
     chromium-bidi "17.0.2"
     devtools-protocol "0.0.1666840"
     typed-query-selector "^2.12.2"
-    webdriver-bidi-protocol "0.4.2"
+    webdriver-bidi-protocol "0.4.3"
     ws "^8.21.3"
 
 puppeteer@>=8.0.0:
-  version "25.9.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-25.9.0.tgz#63268291b40f271ec1f8a6c06a25e00c2a44e2f7"
-  integrity sha512-2JqQszD2pyDTpIvBH1ZCXdrHgENVNdJIeOM6asbwHRgWknFiaLd1gNB91w/B/0hQHNpafkpxa90lPpBaJM87Hw==
+  version "25.10.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-25.10.0.tgz#f9b24bbc23295df1ef700b60c16fcdee5f51c17a"
+  integrity sha512-9ZfkiaZDQWpGPJp9XTS+Bkn/D78hPvYmtjPfIBeybn05oeY6Jj7aiSbYdfcSQD2UMvC0vE7Yi9PSDo179euRzw==
   dependencies:
-    "@puppeteer/browsers" "3.2.1"
+    "@puppeteer/browsers" "3.2.2"
     chromium-bidi "17.0.2"
     devtools-protocol "0.0.1666840"
     lilconfig "^3.1.3"
-    puppeteer-core "25.9.0"
+    puppeteer-core "25.10.0"
     typed-query-selector "^2.12.2"
 
 qified@^0.10.1:
@@ -4569,10 +4569,10 @@ web-namespaces@^1.1.2:
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
 
-webdriver-bidi-protocol@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.2.tgz#f51bb71c2606e90e3d5727607c728b25d617b58b"
-  integrity sha512-VSV+fzfChirL3e7jay2yUC7B4HQCGtEWEg/MSSQbK+qWbqeGlRLlXTzPpYr3XGUvbpDHumWZBJxgesg4N7dbtA==
+webdriver-bidi-protocol@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.3.tgz#57f873567211e8e48c99c58d2c65cb0b8302dc8f"
+  integrity sha512-uuN0goWfxP22B7J/uAgBpOYNPttC+XVseYE+rSY5+rQ+YBeVz/VORw8WbmLVcqW78zNg5A4qnjNXYUWR3il2ig==
 
 which-boxed-primitive@^1.1.0, which-boxed-primitive@^1.1.1:
   version "1.1.1"
