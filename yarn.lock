@@ -25,9 +25,9 @@
   integrity sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==
 
 "@babel/parser@^7.29.9", "@babel/parser@^7.7.5":
-  version "7.29.11"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.29.11.tgz#afa959e9d16c40d4d95012553cab363fc86cbcb7"
-  integrity sha512-OZ6+oaK7GMyg3IfCpj8JOmn8n+w2rJbDT0LLfVDTLb1ZFeKDh3AiNELgCMUw175IJHSkLl74hG0M0VLsvx+gag==
+  version "7.29.12"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.29.12.tgz#1932edf93ff6602b0665817067946c689b6fe423"
+  integrity sha512-WJ7JBp/Q4+z/ImydtI7jS6NVco5++632ExBemSX+Ysb+G1lCwQ5BVo3SY+jGGOcZXI4ZccbZSUSJLNBW6eEpJg==
   dependencies:
     "@babel/types" "^7.29.11"
 
@@ -571,9 +571,9 @@ ansi-regex@^5.0.1:
   integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
 
 ansi-regex@^6.2.2:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.4.0.tgz#69093d6436d30dbb9b04fe7bdcbcfe16c697d8a1"
-  integrity sha512-KzTVk2tCWAHtYrvvvaP8bJKJq2pVinhLcGEQdtLIYPbmNGNyYe8QwNaTUYQp2J7/vIsUKt5QCqAfUkYyG9DkOw==
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.5.0.tgz#83f070e17628d0031eb33eb2315a72d8bb11d2a0"
+  integrity sha512-zhvbbbdt1kbw7EJ9OQoxmQcuaNR9P5kTj7e/YdmOSU10aHWbycofJxA6jKfoEy3vlLdctOF9ZHaxLtmSm998wQ==
 
 ansi-styles@^2.2.1:
   version "2.2.1"
@@ -1160,9 +1160,9 @@ emoji-regex@^9.2.2:
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
 encodeurl@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-2.0.0.tgz#7b8ea898077d7e409d3ac45474ea38eaf0857a58"
-  integrity sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-2.0.1.tgz#f268548822bd87b5b4fdce83c56388c6d33c9de6"
+  integrity sha512-Ev/hIyePLZtpL98x562lvPtenrUfGr0lfaf44HFZ+hDEwso7ccV9QAZrEVLg0hxNAzygaAFxy2dYaAKKM0G06A==
 
 error-ex@^1.2.0, error-ex@^1.3.1:
   version "1.3.4"
@@ -1340,9 +1340,9 @@ execall@^2.0.0:
     clone-regexp "^2.1.0"
 
 express-rate-limit@^8.2.1:
-  version "8.7.1"
-  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-8.7.1.tgz#cb007e811c3173a1dfa79cdb6aacb943f56e62bc"
-  integrity sha512-2FXbqkygil3mZiXzEtM0IjE/UBmBNot0J1GEVrJT4JbrvwOSoEtqtO+wHbiMQELWe1eNvHoYRg2dkjOid+6JkA==
+  version "8.7.2"
+  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-8.7.2.tgz#b7ab904ee525f837d57457c14cf0437f4b773dd4"
+  integrity sha512-U1ScocxDD9WI09LaBVypvNkOtNR5yWAmZLkuKJdAzIchA4YKFYF6GT5IKER7epG58oXtjvGlV0/6ii0F83EyZg==
   dependencies:
     debug "^4.4.3"
     ip-address "^10.2.0"
@@ -1749,9 +1749,9 @@ highlight.js@^11.7.0:
   integrity sha512-nbfWpyRMcMrPMmDwJB+dhX/eiaPKtc2RB+0QZskqJ3WjRA/FDS0e9hZrx8EC/lbEv8gXy98FcDbNa/dspAaJMg==
 
 hono@^4.11.4:
-  version "4.13.14"
-  resolved "https://registry.yarnpkg.com/hono/-/hono-4.13.14.tgz#234489b07bd7bb7b069c9e362f4d39ca85376638"
-  integrity sha512-yhRLQ21U6qa9Hsu2N7Qcbh8tE+WKEcoErjIo56LeSGiGXGp9sA7UpE86Ui9uexb61KakiGwuHMn2QdV7w6i6kQ==
+  version "4.13.16"
+  resolved "https://registry.yarnpkg.com/hono/-/hono-4.13.16.tgz#bbcf7651905e06723e1bb25f7f390ee4fb7c181b"
+  integrity sha512-AOLOEhvrV+iH92xXCnFr/5+3KjPKcI3xP63XJtX5spAnkznPdHijlIsUTpi7/9EhWqrTCekw5c5zh1K+YsVw7A==
 
 hookified@^1.15.0, hookified@^1.15.1:
   version "1.15.1"
@@ -2192,9 +2192,9 @@ japanese-numerals-to-number@^1.0.2:
   integrity sha512-rgs/V7G8Gfy8Z4XtnVBYXzWMAb9oUWp1pDdRmwHmh0hcjcy1kOu+DOpC5rwoHUAN4TqANwb7WD6z5W2v7v7PQQ==
 
 jose@^6.1.3:
-  version "6.2.13"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.13.tgz#4e16bf3cc81b5641ef5025cb2c9f61edfa92572f"
-  integrity sha512-7TIg10ZE1x82YediN+lcrPNvGMKge9yFHQD+Qho/b8y2adfugU3AsvvHfxV0fzyFllT6l9xCjf4RWY9g/Z9PJQ==
+  version "6.2.14"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.14.tgz#f275808d68c833735d484a96606e7e5d937bc03e"
+  integrity sha512-3JasLuki1NRLQvY4wCoC37KZk4qxoBx2k2aFqLxT84IezqW0bkJKnNtxnZj/Fu1xsQivoc/lytxaRHJoGLjJ1A==
 
 js-yaml@^3.13.1, js-yaml@^3.14.1, js-yaml@^3.8.2, js-yaml@^3.9.1:
   version "3.15.2"
@@ -3152,9 +3152,9 @@ qified@^0.10.1:
     hookified "^2.1.1"
 
 qs@^6.16.0, qs@^6.16.1:
-  version "6.16.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.16.1.tgz#0643e17993e551759c85078e1f0bc4b9fe908020"
-  integrity sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==
+  version "6.17.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.17.1.tgz#43ac71d29ca0e9d0eed16a218e35b6cde5628e81"
+  integrity sha512-jd3COkaKVgGUW+ZHyEHCG9bH7RoaaiWuMgzsIBjUMVjLAaWGWpoUAVwljVvBHxRu/2qEHnadLGZrkutYUBPQJA==
   dependencies:
     es-define-property "^1.0.1"
     side-channel "^1.1.1"
@@ -3975,9 +3975,9 @@ textlint-rule-ja-no-space-between-full-width@^2.4.2:
     textlint-rule-helper "^2.2.4"
 
 textlint-rule-ja-no-successive-word@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-successive-word/-/textlint-rule-ja-no-successive-word-2.0.1.tgz#7b59bcd441ccd62c064cdd2883e9a26f170e7d57"
-  integrity sha512-XKTXkHwMu86SnGaj73B67U4apDdTquDKF3SfG24tRbzMyJoGe/Iba5VMId8sp8QHeTonp1bYOSxjZsbkpGyCNw==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-successive-word/-/textlint-rule-ja-no-successive-word-2.1.0.tgz#580865355313942ac7e58e4c9d54757e50f65678"
+  integrity sha512-c9DVpR6kk9DuVi8yysR/lay4wEwHisBoyR648fTbePb/NDpKjJo/XpltcjD73KgpJysZNt0SKBd6PZT12tB09Q==
   dependencies:
     "@textlint/regexp-string-matcher" "^1.1.0"
     kuromojin "^3.0.0"
@@ -4728,9 +4728,9 @@ write-file-atomic@^1.1.4:
     slide "^1.1.5"
 
 ws@^8.22.0:
-  version "8.22.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.0.tgz#40f16e1d7588ac0575041be5c49b8eb261c28e73"
-  integrity sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==
+  version "8.22.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.1.tgz#60d427870e8272ddb10c7fc5cdf00a70eaec369e"
+  integrity sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==
 
 xtend@^4.0.0, xtend@^4.0.1:
   version "4.0.2"
