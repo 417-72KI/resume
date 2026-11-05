@@ -1,4 +1,4 @@
-FROM node:24-slim@sha256:c86ecead9e55a5210ac1727de38a4ca840bf03dcaf34dc9749addbf383b1920c
+FROM node:26-slim@sha256:5adad64f9a1fca2d51972caa65983634c8a774eb300d72b20f7f2a0f60368072
 
 # Install dependencies to run Chrome.
 # Ref: https://pptr.dev/troubleshooting#chrome-doesnt-launch-on-linux
